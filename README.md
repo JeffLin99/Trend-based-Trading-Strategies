@@ -11,12 +11,12 @@ Technical analysis focuses on the historical price and trading volume of securit
      - Technical Indicator: Simple Averages
      - Test data: GME 2022-01 to 2023-8 closing prices
      - Strategy Idea
-         ~ The use of golden cross and death cross as a signal to open buy and close sell positions
+         - The use of golden cross and death cross as a signal to open buy and close sell positions
      - Specific conditions for opening and closing positions
-         ~ Positions are opened on signals, closed and reversed on reverse signals.
-             -> 5-day simple average breaks above the 20-day simple average as a buy signal.
-             -> A downward break of the 5-day simple average above the 20-day simple average is a sell signal.
-         ~ Close a position immediately when a loss occurs on opening the position
+         - Positions are opened on signals, closed and reversed on reverse signals.
+             - 5-day simple average breaks above the 20-day simple average as a buy signal.
+             - A downward break of the 5-day simple average above the 20-day simple average is a sell signal.
+         - Close a position immediately when a loss occurs on opening the position
 
 2) Trading Strategies Based on Exponentially Moving Average Convergence Divergence (MACD)
      - Technical Indicator: Moving Average Convergence Divergence (MACD)
