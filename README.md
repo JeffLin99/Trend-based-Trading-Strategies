@@ -22,9 +22,9 @@ Technical analysis focuses on the historical price and trading volume of securit
      - Technical Indicator: Moving Average Convergence Divergence (MACD)
      - Test data: GME 2022-01 to 2023-8 closing prices
      - Strategy Idea
-         ~ Utilize the divergence (trend strengthening) and convergence (trend slowing) of the long and short-term moving averages reflected by this technical indicator to formulate trading strategies.
+         - Utilize the divergence (trend strengthening) and convergence (trend slowing) of the long and short-term moving averages reflected by this technical indicator to formulate trading strategies.
      - Specific conditions for opening and closing positions
-         ~ Signal for Opening a Position: When DIF and DEA are both positive, it's a bullish market. A DIF crossover above DEA (MACD turning positive) is a buy signal. A DIF crossover below DEA (MACD turning negative) is a sell signal.
-         ~ Signal for Closing a Position and Reversing: When DIF and DEA are both positive and negative, it's a bearish market. A DIF crossover below DEA (MACD turning negative) is a sell signal. A DIF crossover above DEA (MACD turning positive) is a buy signal.
-         ~ Additional Signals: When DIF falls below the zero axis (death cross), it's a sell signal. When DIF crosses above the zero axis (golden cross), it's a buy signal.
-         ~ Close a position immediately when a loss occurs on opening the position
+         - Signal for Opening a Position: When DIF and DEA are both positive, it's a bullish market. A DIF crossover above DEA (MACD turning positive) is a buy signal. A DIF crossover below DEA (MACD turning negative) is a sell signal.
+         - Signal for Closing a Position and Reversing: When DIF and DEA are both positive and negative, it's a bearish market. A DIF crossover below DEA (MACD turning negative) is a sell signal. A DIF crossover above DEA (MACD turning positive) is a buy signal.
+         - Additional Signals: When DIF falls below the zero axis (death cross), it's a sell signal. When DIF crosses above the zero axis (golden cross), it's a buy signal.
+         - Close a position immediately when a loss occurs on opening the position
